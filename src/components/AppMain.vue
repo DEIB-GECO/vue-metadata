@@ -54,7 +54,7 @@
                 <span class="mr-2">About</span>
                  </v-btn>
           </v-toolbar-items>
-          <v-menu class="hidden-xl-and-up">
+          <v-menu class="hidden-xl-only">
             <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
             <v-list-tile style="background-color: white">
                 <v-list-tile-content>
