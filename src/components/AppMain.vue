@@ -20,18 +20,24 @@
       <!--                <span class="font-weight-light">doc</span></span>-->
       <!--            </v-btn>-->
       <v-toolbar-items class="hidden-md-and-down">
-        <v-btn flat href="http://geco.deib.polimi.it/episurf/" target="_blank">
-          <span class="mr-2">EpiSurf</span>
-        </v-btn>
-        <v-btn flat href="http://geco.deib.polimi.it/episurf_gisaid/" target="_blank">
-            <span class="mr-2">EpiSurf GISAID</span>
-        </v-btn>
-        <v-btn flat href="http://geco.deib.polimi.it/virusurf_gisaid/" target="_blank">
+        <v-btn flat href="http://gmql.eu/virusurf_gisaid/" target="_blank">
           <span class="mr-2">ViruSurf GISAID</span>
         </v-btn>
-        <v-btn flat href="http://geco.deib.polimi.it/genosurf/" target="_blank">
-          <span class="mr-2">GenoSurf</span>
+        <v-btn flat href="http://gmql.eu/episurf/" target="_blank">
+          <span class="mr-2">EpiSurf</span>
         </v-btn>
+        <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
+            <span class="mr-2">EpiSurf GISAID</span>
+        </v-btn>
+        <v-btn flat href="http://gmql.eu/virusviz/" target="_blank">
+            <span class="mr-2">VirusViz</span>
+        </v-btn>
+<!--        <v-btn flat href="http://gmql.eu/viruclust_gisaid/" target="_blank">-->
+<!--            <span class="mr-2">ViruClust GISAID</span>-->
+<!--        </v-btn>-->
+<!--        <v-btn flat href="http://gmql.eu/genosurf/" target="_blank">-->
+<!--          <span class="mr-2">GenoSurf</span>-->
+<!--        </v-btn>-->
         <v-btn flat href="/virusurf/repo_static/datacuration.html" target="_blank">
           <span class="mr-2">Data curation</span>
         </v-btn>
@@ -45,6 +51,9 @@
         <v-btn flat href="http://geco.deib.polimi.it/surveys/index.php/2/" target="_blank">
           <span class="mr-2">Survey</span>
         </v-btn>
+<!--        <v-btn flat href="http://gmql.eu/surveys/index.php/2/" target="_blank">-->
+<!--          <span class="mr-2">Survey</span>-->
+<!--        </v-btn>-->
         <!--          <v-btn flat href="/virusurf/repo_static/acknowledgements.html" target="_blank">
                       <span class="mr-2">Acknowledgements</span>
                   </v-btn>
@@ -59,32 +68,46 @@
         <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
-              <v-btn flat href="http://geco.deib.polimi.it/episurf/" target="_blank">
-                <span class="mr-2">EpiSurf</span>
-              </v-btn>
-            </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile style="background-color: white">
-            <v-list-tile-content>
-              <v-btn flat href="http://geco.deib.polimi.it/episurf_gisaid/" target="_blank">
-                  <span class="mr-2">EpiSurf GISAID</span>
-              </v-btn>
-            </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile style="background-color: white">
-            <v-list-tile-content>
-              <v-btn flat href="http://geco.deib.polimi.it/virusurf_gisaid/" target="_blank">
+              <v-btn flat href="http://gmql.eu/virusurf_gisaid/" target="_blank">
                 <span class="mr-2">ViruSurf GISAID</span>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
-              <v-btn flat href="http://geco.deib.polimi.it/genosurf/" target="_blank">
-                <span class="mr-2">GenoSurf</span>
+              <v-btn flat href="http://gmql.eu/episurf/" target="_blank">
+                <span class="mr-2">EpiSurf</span>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
+        <v-list-tile style="background-color: white">
+            <v-list-tile-content>
+              <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
+                  <span class="mr-2">EpiSurf GISAID</span>
+              </v-btn>
+            </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile style="background-color: white">
+            <v-list-tile-content>
+              <v-btn flat href="http://gmql.eu/virusviz/" target="_blank">
+                  <span class="mr-2">VirusViz</span>
+              </v-btn>
+            </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile style="background-color: white">
+            <v-list-tile-content>
+              <v-btn flat href="http://gmql.eu/viruclust_gisaid/" target="_blank">
+                  <span class="mr-2">ViruClust GISAID</span>
+              </v-btn>
+            </v-list-tile-content>
+        </v-list-tile>
+<!--        <v-list-tile style="background-color: white">-->
+<!--            <v-list-tile-content>-->
+<!--              <v-btn flat href="http://gmql.eu/genosurf/" target="_blank">-->
+<!--                <span class="mr-2">GenoSurf</span>-->
+<!--              </v-btn>-->
+<!--            </v-list-tile-content>-->
+<!--        </v-list-tile>-->
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
               <v-btn flat href="/virusurf/repo_static/datacuration.html" target="_blank">
@@ -114,6 +137,13 @@
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
+<!--        <v-list-tile style="background-color: white">-->
+<!--            <v-list-tile-content>-->
+<!--              <v-btn flat href="http://gmql.eu/surveys/index.php/2/" target="_blank">-->
+<!--                <span class="mr-2">Survey</span>-->
+<!--              </v-btn>-->
+<!--            </v-list-tile-content>-->
+<!--        </v-list-tile>-->
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
               <v-btn flat href="/virusurf/repo_static/about.html" target="_blank">
