@@ -48,7 +48,7 @@
                target="_blank">
           <span class="mr-2">Video</span>
         </v-btn>
-        <v-btn flat href="http://geco.deib.polimi.it/surveys/index.php/2/" target="_blank">
+        <v-btn flat href="http://gmql.eu/surveys/index.php/2/" target="_blank">
           <span class="mr-2">Survey</span>
         </v-btn>
 <!--        <v-btn flat href="http://gmql.eu/surveys/index.php/2/" target="_blank">-->
@@ -60,7 +60,7 @@
                   <v-btn flat href="/virusurf/repo_static/contact.html" target="_blank">
                       <span class="mr-2">Contacts</span>
                   </v-btn>-->
-        <v-btn flat href="/virusurf/repo_static/about.html" target="_blank">
+        <v-btn flat href="http://gmql.eu/virusurf/repo_static/about.html" target="_blank">
           <span class="mr-2">About</span>
         </v-btn>
       </v-toolbar-items>
@@ -132,7 +132,7 @@
         </v-list-tile>
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
-              <v-btn flat href="http://geco.deib.polimi.it/surveys/index.php/2/" target="_blank">
+              <v-btn flat href="http://gmql.eu/surveys/index.php/2/" target="_blank">
                 <span class="mr-2">Survey</span>
               </v-btn>
             </v-list-tile-content>
@@ -146,7 +146,7 @@
 <!--        </v-list-tile>-->
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
-              <v-btn flat href="/virusurf/repo_static/about.html" target="_blank">
+              <v-btn flat href="http://gmql.eu/virusurf/repo_static/about.html" target="_blank">
                 <span class="mr-2">About</span>
               </v-btn>
             </v-list-tile-content>
