@@ -5,7 +5,7 @@
             <v-btn flat @click="mainContent=true">
                 <v-toolbar-title class="headline" style="font-size: 32px;text-transform: none !important;">
                     <span>Epi</span>
-                    <span class="font-weight-light">Surf GISAID</span>
+                    <span class="font-weight-light">Surf</span>
                 </v-toolbar-title>
             </v-btn>
             <span style="font-size: 16px; white-space: nowrap;">enabled by data from
@@ -789,7 +789,7 @@
             else{
               this.isGisaid = false;
             }
-            document.title = 'EpiSurf GISAID'
+            document.title = 'EpiSurf'
             this.setQueryStartEpi();
             this.setTrueIsEpitopeSurf();
         },

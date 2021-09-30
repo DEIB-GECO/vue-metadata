@@ -5,7 +5,7 @@
             <v-btn flat @click="mainContent=true">
                 <v-toolbar-title class="headline" style="font-size: 32px;text-transform: none !important;">
                     <span>Viru</span>
-                    <span class="font-weight-light">Surf GISAID</span>
+                    <span class="font-weight-light">Surf</span>
                 </v-toolbar-title>
             </v-btn>
             <span style="font-size: 16px; white-space: nowrap;">enabled by data from
@@ -38,9 +38,9 @@
 <!--            <v-btn flat href="http://gmql.eu/genosurf/" target="_blank">-->
 <!--                <span class="mr-2">GenoSurf</span>-->
 <!--            </v-btn>-->
-            <v-btn flat href="/virusurf_gisaid/repo_static/datacuration.html" target="_blank">
-                <span class="mr-2">Data curation</span>
-            </v-btn>
+<!--            <v-btn flat href="/virusurf_gisaid/repo_static/datacuration.html" target="_blank">-->
+<!--                <span class="mr-2">Data curation</span>-->
+<!--            </v-btn>-->
             <v-btn flat href="https://github.com/DEIB-GECO/vue-metadata/wiki" target="_blank">
                 <span class="mr-2">Wiki</span>
             </v-btn>
@@ -107,13 +107,13 @@
 <!--                  </v-btn>-->
 <!--                </v-list-tile-content>-->
 <!--            </v-list-tile>-->
-            <v-list-tile style="background-color: white">
-                <v-list-tile-content>
-                  <v-btn flat href="/virusurf_gisaid/repo_static/datacuration.html" target="_blank">
-                      <span class="mr-2">Data curation</span>
-                  </v-btn>
-                </v-list-tile-content>
-            </v-list-tile>
+<!--            <v-list-tile style="background-color: white">-->
+<!--                <v-list-tile-content>-->
+<!--                  <v-btn flat href="/virusurf_gisaid/repo_static/datacuration.html" target="_blank">-->
+<!--                      <span class="mr-2">Data curation</span>-->
+<!--                  </v-btn>-->
+<!--                </v-list-tile-content>-->
+<!--            </v-list-tile>-->
             <v-list-tile style="background-color: white">
                 <v-list-tile-content>
                   <v-btn flat href="https://github.com/DEIB-GECO/vue-metadata/wiki" target="_blank">
@@ -172,34 +172,34 @@
                                 Apply your search
                             </v-btn>
                         </v-flex>
-                        <v-flex md2 sm2 class="no-horizontal-padding d-flex">
-                            <v-btn flat class="info" @click="applyGisaidButtonClick">
-                                Apply GISAID specific
-                            </v-btn>
-                            <v-dialog width="500">
-                                <v-btn slot="activator"
-                                       class="info-button"
-                                       small
-                                       flat icon color="blue"
-                                       style="margin-left: 0px;margin-right: 0px;">
-                                    <v-icon class="info-icon">info</v-icon>
-                                </v-btn>
-                                <v-card>
-                                    <v-card-title
-                                            class="headline grey lighten-2"
-                                            primary-title
-                                    >
-                                        Apply GISAID specific
-                                    </v-card-title>
-                                    <v-card-text>
-                                        <p>
-                                            Removes from the database all sequences which are also in GenBank,
-                                            COG-UK and NMDC.
-                                        </p>
-                                    </v-card-text>
-                                </v-card>
-                            </v-dialog>
-                        </v-flex>
+<!--                        <v-flex md2 sm2 class="no-horizontal-padding d-flex">-->
+<!--                            <v-btn flat class="info" @click="applyGisaidButtonClick">-->
+<!--                                Apply GISAID specific-->
+<!--                            </v-btn>-->
+<!--                            <v-dialog width="500">-->
+<!--                                <v-btn slot="activator"-->
+<!--                                       class="info-button"-->
+<!--                                       small-->
+<!--                                       flat icon color="blue"-->
+<!--                                       style="margin-left: 0px;margin-right: 0px;">-->
+<!--                                    <v-icon class="info-icon">info</v-icon>-->
+<!--                                </v-btn>-->
+<!--                                <v-card>-->
+<!--                                    <v-card-title-->
+<!--                                            class="headline grey lighten-2"-->
+<!--                                            primary-title-->
+<!--                                    >-->
+<!--                                        Apply GISAID specific-->
+<!--                                    </v-card-title>-->
+<!--                                    <v-card-text>-->
+<!--                                        <p>-->
+<!--                                            Removes from the database all sequences which are also in GenBank,-->
+<!--                                            COG-UK and NMDC.-->
+<!--                                        </p>-->
+<!--                                    </v-card-text>-->
+<!--                                </v-card>-->
+<!--                            </v-dialog>-->
+<!--                        </v-flex>-->
                         <!--                        <v-flex md1 sm2 class="no-horizontal-padding">-->
                         <!--                            <v-dialog v-model="dialogShowQuery">-->
                         <!--                                <v-btn flat class="small-btn" dark small-->
@@ -299,9 +299,9 @@
                     <v-btn flat class="info" @click="applyButtonClick">
                         Apply your search
                     </v-btn>
-                    <v-btn flat class="info" @click="applyGisaidButtonClick">
-                        Apply GISAID specific
-                    </v-btn>
+<!--                    <v-btn flat class="info" @click="applyGisaidButtonClick">-->
+<!--                        Apply GISAID specific-->
+<!--                    </v-btn>-->
                 </div>
                 <div class="result-div" v-if="applied">
                     <v-tabs dark color="blue darken-1" v-model="selectedTab">
