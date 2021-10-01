@@ -28,16 +28,16 @@
             </v-btn>
             <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
                 <span class="mr-2">EpiSurf</span>
-                <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="13px"/>
+                <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_white.png')" alt="gisaid-logo"
+                     height="40px"/>
             </v-btn>
             <v-btn flat href="http://gmql.eu/virusviz/" target="_blank">
                 <span class="mr-2">VirusViz</span>
             </v-btn>
             <v-btn flat href="http://gmql.eu/viruclust_gisaid/" target="_blank">
                 <span class="mr-2">ViruClust</span>
-                <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="13px"/>
+                <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_white.png')" alt="gisaid-logo"
+                     height="40px"/>
             </v-btn>
 <!--            <v-btn flat href="http://gmql.eu/genosurf/" target="_blank">-->
 <!--                <span class="mr-2">GenoSurf</span>-->
@@ -87,8 +87,8 @@
                 <v-list-tile-content>
                   <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
                       <span class="mr-2">EpiSurf</span>
-                      <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="15px"/>
+                      <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_grey.png')" alt="gisaid-logo"
+                     height="40px"/>
                   </v-btn>
                 </v-list-tile-content>
             </v-list-tile>
@@ -103,8 +103,8 @@
                 <v-list-tile-content>
                   <v-btn flat href="http://gmql.eu/viruclust_gisaid/" target="_blank">
                       <span class="mr-2">ViruClust</span>
-                      <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="15px"/>
+                      <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_grey.png')" alt="gisaid-logo"
+                     height="40px"/>
                   </v-btn>
                 </v-list-tile-content>
             </v-list-tile>
