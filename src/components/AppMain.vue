@@ -19,27 +19,27 @@
       <!--            <v-btn flat href="api" target="repository_browser_api"><span class="mr-2">API-->
       <!--                <span class="font-weight-light">doc</span></span>-->
       <!--            </v-btn>-->
-      <v-toolbar-items class="hidden-md-and-down">
+      <v-toolbar-items class="hidden-lg-and-down">
         <v-btn flat href="http://gmql.eu/virusurf_gisaid/" target="_blank">
           <span class="mr-2">ViruSurf</span>
-          <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="13px"/>
+          <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_white.png')" alt="gisaid-logo"
+                     height="40px"/>
         </v-btn>
         <v-btn flat href="http://gmql.eu/episurf/" target="_blank">
           <span class="mr-2">EpiSurf</span>
         </v-btn>
         <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
             <span class="mr-2">EpiSurf</span>
-            <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="13px"/>
+            <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_white.png')" alt="gisaid-logo"
+                     height="40px"/>
         </v-btn>
         <v-btn flat href="http://gmql.eu/virusviz/" target="_blank">
             <span class="mr-2">VirusViz</span>
         </v-btn>
         <v-btn flat href="http://gmql.eu/viruclust_gisaid/" target="_blank">
             <span class="mr-2">ViruClust</span>
-            <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="13px"/>
+            <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_white.png')" alt="gisaid-logo"
+                     height="40px"/>
         </v-btn>
 <!--        <v-btn flat href="http://geco.deib.polimi.it/genosurf/" target="_blank">-->
 <!--          <span class="mr-2">GenoSurf</span>-->
@@ -70,14 +70,14 @@
           <span class="mr-2">About</span>
         </v-btn>
       </v-toolbar-items>
-      <v-menu class="hidden-lg-and-up">
+      <v-menu class="hidden-xl-only">
         <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
               <v-btn flat href="http://gmql.eu/virusurf_gisaid/" target="_blank">
                 <span class="mr-2">ViruSurf</span>
-                <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="15px"/>
+                <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_grey.png')" alt="gisaid-logo"
+                     height="40px"/>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
@@ -92,8 +92,8 @@
             <v-list-tile-content>
               <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
                   <span class="mr-2">EpiSurf</span>
-                  <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="15px"/>
+                  <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_grey.png')" alt="gisaid-logo"
+                     height="40px"/>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
@@ -108,8 +108,8 @@
             <v-list-tile-content>
               <v-btn flat href="http://gmql.eu/viruclust_gisaid/" target="_blank">
                   <span class="mr-2">VirusClust</span>
-                  <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
-                     height="15px"/>
+                  <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_grey.png')" alt="gisaid-logo"
+                     height="40px"/>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
