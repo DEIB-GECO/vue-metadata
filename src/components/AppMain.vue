@@ -21,19 +21,25 @@
       <!--            </v-btn>-->
       <v-toolbar-items class="hidden-md-and-down">
         <v-btn flat href="http://gmql.eu/virusurf_gisaid/" target="_blank">
-          <span class="mr-2">ViruSurf GISAID</span>
+          <span class="mr-2">ViruSurf</span>
+          <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
+                     height="13px"/>
         </v-btn>
         <v-btn flat href="http://gmql.eu/episurf/" target="_blank">
           <span class="mr-2">EpiSurf</span>
         </v-btn>
         <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
-            <span class="mr-2">EpiSurf GISAID</span>
+            <span class="mr-2">EpiSurf</span>
+            <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
+                     height="13px"/>
         </v-btn>
         <v-btn flat href="http://gmql.eu/virusviz/" target="_blank">
             <span class="mr-2">VirusViz</span>
         </v-btn>
         <v-btn flat href="http://gmql.eu/viruclust_gisaid/" target="_blank">
-            <span class="mr-2">ViruClust GISAID</span>
+            <span class="mr-2">ViruClust</span>
+            <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
+                     height="13px"/>
         </v-btn>
 <!--        <v-btn flat href="http://geco.deib.polimi.it/genosurf/" target="_blank">-->
 <!--          <span class="mr-2">GenoSurf</span>-->
@@ -69,7 +75,9 @@
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
               <v-btn flat href="http://gmql.eu/virusurf_gisaid/" target="_blank">
-                <span class="mr-2">ViruSurf GISAID</span>
+                <span class="mr-2">ViruSurf</span>
+                <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
+                     height="15px"/>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
@@ -83,7 +91,9 @@
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
               <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
-                  <span class="mr-2">EpiSurf GISAID</span>
+                  <span class="mr-2">EpiSurf</span>
+                  <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
+                     height="15px"/>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
@@ -97,7 +107,9 @@
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
               <v-btn flat href="http://gmql.eu/viruclust_gisaid/" target="_blank">
-                  <span class="mr-2">VirusClust GISAID</span>
+                  <span class="mr-2">VirusClust</span>
+                  <img style="vertical-align: middle;" :src="require('../assets/gisaid.png')" alt="gisaid-logo"
+                     height="15px"/>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
