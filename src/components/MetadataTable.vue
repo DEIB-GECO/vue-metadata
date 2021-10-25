@@ -576,7 +576,8 @@ export default {
             virusVizPollUrl += "/api/poll/";
             virusVizPollUrl += res.result;
             console.log("virusVizPollUrl: " + virusVizPollUrl);
-            let virusVizUrl = "http://genomic.deib.polimi.it/virusviz/static/#!/home?";
+            let virusVizUrl = "http://viruslab.quantiaconsulting.com/viruslab/static/#!/home?";
+            // let virusVizUrl = "http://genomic.deib.polimi.it/virusviz/static/#!/home?";
             const appName = "ViruSurf";
             virusVizUrl += `appName=${appName}&`;
             virusVizUrl += `appURL=${appUrl}&`;
