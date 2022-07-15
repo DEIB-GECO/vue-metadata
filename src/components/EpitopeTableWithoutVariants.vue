@@ -43,7 +43,7 @@
                              :disabled="this.result === null || this.result === undefined || this.result.length === 0"
                               @click="openDialogVirusViz('all')">
                         <v-img style="margin-right: 5px; min-width: 15px;"
-                               src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                               src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                         VirusViz All Epitopes
                       </v-btn>
             </v-layout>
@@ -159,7 +159,7 @@
                       <v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                               @click="openDialogVirusViz(props.item[epitopeId])">
                         <v-img style="margin-right: 5px; min-width: 15px;"
-                               src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                               src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                         VirusViz
                       </v-btn>
                     </span>
@@ -217,13 +217,13 @@
             <v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                    @click="virusVizClicked(sendToDialogVirusViz.epitope_id); dialogVirusviz = false;">
               <v-img style="margin-right: 5px; min-width: 15px;"
-                     src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                     src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
               VirusViz (Full)
             </v-btn>
             <v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                    @click="virusVizClicked(sendToDialogVirusViz.epitope_id, true); dialogVirusviz = false;">
               <v-img style="margin-right: 5px; min-width: 15px;"
-                     src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                     src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
               VirusViz (AA mutations only)
             </v-btn>
             <v-spacer></v-spacer>
@@ -375,7 +375,7 @@ export default {
                 virusVizPollUrl += "/api/poll/";
                 virusVizPollUrl += res.result;
                 console.log("virusVizPollUrl: " + virusVizPollUrl);
-                let virusVizUrl = "http://genomic.deib.polimi.it/virusviz/static/#!/home?";
+                let virusVizUrl = "http://cerilab.deib.polimi.it/virusviz/static/#!/home?";
                 const appName = "ViruSurf";
                 virusVizUrl += `appName=${appName}&`;
                 virusVizUrl += `appURL=${appUrl}&`;
