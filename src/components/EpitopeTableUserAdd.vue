@@ -243,12 +243,12 @@
                              :disabled="props.item['num_seq'] === 0 || props.item['num_seq'] === '-'"
                               @click="openDialogVirusViz(props.item, props.item['num_seq'])">
                         <v-img style="margin-right: 5px; min-width: 15px;"
-                               src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                               src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                         VirusViz
                       </v-btn>
                         <!--<v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                                  @click="virusVizClicked(props.item)" :disabled="props.item['num_seq'] === 0">
-                            <v-img style="margin-right: 5px" src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                            <v-img style="margin-right: 5px" src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                             VirusViz
                         </v-btn>
                         -->
@@ -261,13 +261,13 @@
                               @click="openDialogVirusViz(props.item, props.item['total_num_of_seq_metadata'], true)"
                               :disabled="props.item['num_seq'] === '-'">
                         <v-img style="margin-right: 5px; min-width: 15px;"
-                               src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                               src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                         VirusViz
                       </v-btn>
                       <!--
                         <v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                                  @click="virusVizClicked(props.item[epitopeId])" :disabled="props.item['num_seq'] === 0">
-                            <v-img style="margin-right: 5px" src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                            <v-img style="margin-right: 5px" src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                             VirusViz
                         </v-btn>
                         -->
@@ -335,13 +335,13 @@
             <v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                    @click="virusVizClicked(sendToDialogVirusViz.epitope, false, all_pop = virusviz_all_pop); dialogVirusviz = false; virusviz_all_pop = false;">
               <v-img style="margin-right: 5px; min-width: 15px;"
-                     src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                     src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
               VirusViz (Full)
             </v-btn>
             <v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                    @click="virusVizClicked(sendToDialogVirusViz.epitope, true, all_pop = virusviz_all_pop); dialogVirusviz = false; virusviz_all_pop = false;">
               <v-img style="margin-right: 5px; min-width: 15px;"
-                     src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                     src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
               VirusViz (AA mutations only)
             </v-btn>
             <v-spacer></v-spacer>
@@ -612,7 +612,7 @@ export default {
                 virusVizPollUrl = virusVizPollUrl.replace(/\/+$/,'')
                 virusVizPollUrl += "/api/poll/";
                 virusVizPollUrl += res.result;
-                let virusVizUrl = "http://genomic.deib.polimi.it/virusviz/static/#!/home?";
+                let virusVizUrl = "http://cerilab.deib.polimi.it/virusviz/static/#!/home?";
                 const appName = "ViruSurf";
                 virusVizUrl += `appName=${appName}&`;
                 virusVizUrl += `appURL=${appUrl}&`;
