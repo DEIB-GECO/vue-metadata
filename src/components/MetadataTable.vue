@@ -268,7 +268,7 @@
               <v-btn slot="activator"
                      style="text-transform: none" dark small color="#009688">
                 <v-img style="margin-right: 5px; min-width: 15px;"
-                       src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                       src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                 VirusViz
               </v-btn>
               <v-card>
@@ -307,13 +307,13 @@
                   <v-btn style="text-transform: none" dark small color="#009688"
                          @click="virusVizClicked(); dialogVirusviz = false;">
                     <v-img style="margin-right: 5px; min-width: 15px;"
-                           src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                           src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                     VirusViz (Full)
                   </v-btn>
                   <v-btn style="text-transform: none" dark small color="#009688"
                          @click="virusVizClicked(true); dialogVirusviz = false;">
                     <v-img style="margin-right: 5px; min-width: 15px;"
-                           src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                           src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                     VirusViz (AA mutations only)
                   </v-btn>
                   <v-spacer></v-spacer>
@@ -577,7 +577,7 @@ export default {
             virusVizPollUrl += res.result;
             console.log("virusVizPollUrl: " + virusVizPollUrl);
             let virusVizUrl = "http://viruslab.quantiaconsulting.com/viruslab/static/#!/home?";
-            // let virusVizUrl = "http://genomic.deib.polimi.it/virusviz/static/#!/home?";
+            // let virusVizUrl = "http://cerilab.deib.polimi.it/virusviz/static/#!/home?";
             const appName = "ViruSurf";
             virusVizUrl += `appName=${appName}&`;
             virusVizUrl += `appURL=${appUrl}&`;
@@ -768,7 +768,7 @@ export default {
           .then((res) => {
             return res.map((t) => {
               if (t.local_url) {
-                t.local_url = t.local_url.replace("www.gmql.eu", "genomic.deib.polimi.it");
+                t.local_url = t.local_url.replace("www.gmql.eu", "cerilab.deib.polimi.it");
                 t.local_url = t.local_url + "?authToken=DOWNLOAD-TOKEN";
               }
               return t;
