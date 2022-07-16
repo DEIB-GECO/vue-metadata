@@ -224,7 +224,7 @@
                              :disabled="this.result.length === 0"
                               @click="openDialogVirusViz()">
                         <v-img style="margin-right: 5px; min-width: 15px;"
-                               src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                               src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                         VirusViz
                         </v-btn>
                         <v-dialog
@@ -265,13 +265,13 @@
                             <v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                                    @click="virusVizClicked(); dialogVirusviz = false;">
                               <v-img style="margin-right: 5px; min-width: 15px;"
-                                     src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                                     src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                               VirusViz (Full)
                             </v-btn>
                             <v-btn style="text-transform: none; color: white" small color="rgb(79, 131, 164)"
                                    @click="virusVizClicked(true); dialogVirusviz = false;">
                               <v-img style="margin-right: 5px; min-width: 15px;"
-                                     src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                                     src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                               VirusViz (AA mutations only)
                             </v-btn>
                             <v-spacer></v-spacer>
@@ -290,7 +290,7 @@
 
                         <!--<v-btn style="text-transform: none ; color: white" small color="rgb(79, 131, 164)"
                                @click="virusVizClicked()" :disabled="this.result.length === 0">
-                          <v-img style="margin-right: 5px" src="http://genomic.elet.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
+                          <v-img style="margin-right: 5px" src="http://cerilab.deib.polimi.it/virusviz/static/img/virusviz-logo-name.png"/>
                           VirusViz
                         </v-btn>-->
                     </v-flex>
@@ -534,7 +534,7 @@
                       virusVizPollUrl += "/api/poll/";
                       virusVizPollUrl += res.result;
                       console.log("virusVizPollUrl: " + virusVizPollUrl);
-                      let virusVizUrl = "http://genomic.deib.polimi.it/virusviz/static/#!/home?";
+                      let virusVizUrl = "http://cerilab.deib.polimi.it/virusviz/static/#!/home?";
                       const appName = "ViruSurf";
                       virusVizUrl += `appName=${appName}&`;
                       virusVizUrl += `appURL=${appUrl}&`;
@@ -734,7 +734,7 @@
                     .then((res) => {
                         return res.map((t) => {
                             if (t.local_url) {
-                                t.local_url = t.local_url.replace("www.gmql.eu", "genomic.deib.polimi.it");
+                                t.local_url = t.local_url.replace("www.gmql.eu", "cerilab.deib.polimi.it");
                                 t.local_url = t.local_url + "?authToken=DOWNLOAD-TOKEN";
                             }
                             return t;
