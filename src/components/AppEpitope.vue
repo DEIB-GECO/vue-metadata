@@ -4,7 +4,7 @@
             <v-img :src="require('../assets/virusurf_logo.png')" contain max-width="39px" max-height="39px"></v-img>
             <v-btn flat @click="mainContent=true">
                 <v-toolbar-title class="headline" style="font-size: 32px;text-transform: none !important;">
-                    <span>Epi</span>
+                    <span>EpiViru</span>
                     <span class="font-weight-light">Surf</span>
                 </v-toolbar-title>
             </v-btn>
@@ -20,8 +20,8 @@
             <!--                <span class="font-weight-light">doc</span></span>-->
             <!--            </v-btn>-->
             <v-toolbar-items class="hidden-md-and-down">
-              <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
-                  <span class="mr-2">EpiSurf</span>
+              <v-btn flat href="http://gmql.eu/epivirusurf_gisaid/" target="_blank">
+                  <span class="mr-2">EpiViruSurf</span>
                   <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_white.png')" alt="gisaid-logo"
                      height="40px"/>
               </v-btn>
@@ -44,7 +44,7 @@
 <!--              <v-btn flat href="http://gmql.eu/genosurf/" target="_blank">-->
 <!--                  <span class="mr-2">GenoSurf</span>-->
 <!--              </v-btn>-->
-              <v-btn flat href="https://github.com/DEIB-GECO/EpiSurf/wiki" target="_blank">
+              <v-btn flat href="https://github.com/DEIB-GECO/EpiViruSurf/wiki" target="_blank">
                   <span class="mr-2">Wiki</span>
               </v-btn>
               <!--          <v-btn flat href="/virusurf/repo_static/acknowledgements.html" target="_blank">
@@ -53,7 +53,7 @@
                         <v-btn flat href="/virusurf/repo_static/contact.html" target="_blank">
                             <span class="mr-2">Contacts</span>
                         </v-btn>-->
-              <v-btn flat href="http://gmql.eu/virusurf/repo_static/about_episurf.html" target="_blank">
+              <v-btn flat href="http://gmql.eu/virusurf/repo_static/about_epivirusurf.html" target="_blank">
                   <span class="mr-2">About</span>
               </v-btn>
             </v-toolbar-items>
@@ -61,8 +61,8 @@
               <v-toolbar-side-icon slot="activator"></v-toolbar-side-icon>
               <v-list-tile style="background-color: white">
                   <v-list-tile-content>
-                    <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
-                        <span class="mr-2">EpiSurf</span>
+                    <v-btn flat href="http://gmql.eu/epivirusurf_gisaid/" target="_blank">
+                        <span class="mr-2">EpiViruSurf</span>
                         <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_grey.png')" alt="gisaid-logo"
                      height="40px"/>
                     </v-btn>
@@ -109,14 +109,14 @@
 <!--              </v-list-tile>-->
               <v-list-tile style="background-color: white">
                   <v-list-tile-content>
-                    <v-btn flat href="https://github.com/DEIB-GECO/EpiSurf/wiki" target="_blank">
+                    <v-btn flat href="https://github.com/DEIB-GECO/EpiViruSurf/wiki" target="_blank">
                         <span class="mr-2">Wiki</span>
                     </v-btn>
                   </v-list-tile-content>
               </v-list-tile>
               <v-list-tile style="background-color: white">
                   <v-list-tile-content>
-                    <v-btn flat href="http://gmql.eu/virusurf/repo_static/about_episurf.html" target="_blank">
+                    <v-btn flat href="http://gmql.eu/virusurf/repo_static/about_epivirsurf.html" target="_blank">
                         <span class="mr-2">About</span>
                     </v-btn>
                   </v-list-tile-content>
@@ -776,7 +776,7 @@
             else{
               this.isGisaid = false;
             }
-            document.title = 'EpiSurf'
+            document.title = 'EpiViruSurf'
             this.setQueryStartEpi();
             this.setTrueIsEpitopeSurf();
         },

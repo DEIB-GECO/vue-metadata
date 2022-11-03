@@ -25,11 +25,11 @@
           <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_white.png')" alt="gisaid-logo"
                      height="40px"/>
         </v-btn>
-        <v-btn flat href="http://gmql.eu/episurf/" target="_blank">
-          <span class="mr-2">EpiSurf</span>
+        <v-btn flat href="http://gmql.eu/epivirusurf/" target="_blank">
+          <span class="mr-2">EpiViruSurf</span>
         </v-btn>
-        <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
-            <span class="mr-2">EpiSurf</span>
+        <v-btn flat href="http://gmql.eu/epivirusurf_gisaid/" target="_blank">
+            <span class="mr-2">EpiViruSurf</span>
             <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_white.png')" alt="gisaid-logo"
                      height="40px"/>
         </v-btn>
@@ -83,15 +83,15 @@
         </v-list-tile>
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
-              <v-btn flat href="http://gmql.eu/episurf/" target="_blank">
-                <span class="mr-2">EpiSurf</span>
+              <v-btn flat href="http://gmql.eu/epivirusurf/" target="_blank">
+                <span class="mr-2">EpiViruSurf</span>
               </v-btn>
             </v-list-tile-content>
         </v-list-tile>
         <v-list-tile style="background-color: white">
             <v-list-tile-content>
-              <v-btn flat href="http://gmql.eu/episurf_gisaid/" target="_blank">
-                  <span class="mr-2">EpiSurf</span>
+              <v-btn flat href="http://gmql.eu/epivirusurf_gisaid/" target="_blank">
+                  <span class="mr-2">EpiViruSurf</span>
                   <img style="vertical-align: middle;" :src="require('../assets/enabled_gisaid_grey.png')" alt="gisaid-logo"
                      height="40px"/>
               </v-btn>
